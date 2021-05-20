@@ -1,0 +1,19 @@
+Package: saxoR
+Title: Functions for Roxas data manipulation
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Patrick",
+           family = "Fonti",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Roxas generate many files including a cell anatomical measurements performed along dated tree rings. The function of this package should support Roxas users to import, cross-date, quality check, and analyse Roxas data. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+  utils,
+  magrittr,
+  dplyr
